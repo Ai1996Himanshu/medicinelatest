@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F7F6 "
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#F4F7F6    "
+        android:paddingVertical="20dp"
+        android:paddingHorizontal="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#43AD83"
+            android:paddingVertical="5dp"
+            android:text="USER REGISTRATION"
+            android:layout_marginBottom="50dp"
+            android:textSize="20dp" />
+        <EditText
+            android:inputType="textEmailAddress"
+            android:layout_margin="5dp"
+            android:paddingVertical="5dp"
+            android:background="@drawable/custom"
+            android:textAlignment="center"
+            android:id="@+id/etemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="email"/>
+
+        <EditText
+            android:id="@+id/etpass"
+            android:layout_margin="5dp"
+            android:paddingVertical="5dp"
+            android:background="@drawable/custom"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="password"
+            />
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/buttonreg"
+            android:text="register"
+            android:background="#43AD83"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="#424544"
+            />
+        <TextView
+            android:id="@+id/textviewsignin"
+            android:textAlignment="center"
+            android:text="already registered ? sign in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>

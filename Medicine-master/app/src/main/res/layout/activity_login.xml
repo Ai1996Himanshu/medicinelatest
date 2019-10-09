@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F7F6 "
+
+    tools:context=".loginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#F4F7F6    "
+        android:orientation="vertical"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="20dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:textColor="#43AD83"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="USER LOGIN"
+            android:layout_marginBottom="50dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/etemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom"
+            android:hint="email"
+            android:paddingVertical="5dp"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            />
+
+        <EditText
+            android:id="@+id/etpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="5dp"
+            android:background="@drawable/custom"
+            android:layout_margin="5dp"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+          />
+
+        <Button
+            android:id="@+id/buttonSignin"
+            android:textColor="#424544"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#43AD83  "
+            android:text="login" />
+
+        <TextView
+            android:id="@+id/textviewsignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="not registered ? sign up"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+
+</RelativeLayout>

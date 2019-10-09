@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="2dp"
+        android:background="@drawable/custom"
+        android:backgroundTint="#D5DBD9"
+        android:orientation="horizontal"
+        android:paddingVertical="2dp">
+
+        <ImageView
+            android:id="@+id/med_image"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="1dp"
+            android:background="@drawable/custom1"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="20dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="2dp"
+            android:background="@drawable/custom"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:paddingHorizontal="2dp"
+            android:paddingVertical="5dp"
+            android:paddingTop="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="3">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:paddingLeft="10dp"
+                    android:paddingVertical="5dp"
+                    android:background="@drawable/custom"
+                    android:text="Medicine Name:"
+                    android:layout_weight="2"/>
+                <TextView
+                    android:id="@+id/med_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="1dp"
+                    android:layout_margin="1dp"
+                    android:background="@drawable/custom"
+                    android:paddingLeft="10dp"
+                    android:paddingVertical="2dp"
+                    android:text="TextView"
+                    android:textSize="17dp"
+                    android:textColor="#494C4B"
+                     />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="3">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:paddingLeft="10dp"
+                    android:paddingVertical="5dp"
+                    android:background="@drawable/custom"
+                    android:text="Quantity:"
+                    android:layout_weight="2"/>
+                <TextView
+                    android:id="@+id/med_qua"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="1dp"
+                    android:background="@drawable/custom"
+                    android:layout_margin="1dp"
+                   android:paddingLeft="10dp"
+                    android:paddingVertical="2dp"
+                    android:text="TextView"
+                    android:textColor="#494C4B"
+                    android:textSize="17dp"
+                     />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

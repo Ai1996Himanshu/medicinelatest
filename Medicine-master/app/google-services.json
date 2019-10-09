@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "664903366932",
+    "firebase_url": "https://medicine-9e343.firebaseio.com",
+    "project_id": "medicine-9e343",
+    "storage_bucket": "medicine-9e343.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664903366932:android:903ec910173b2c09",
+        "android_client_info": {
+          "package_name": "com.arya.medicine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664903366932-rp993619urg5g7o09j70c64f7ba7f7h6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arya.medicine",
+            "certificate_hash": "86c7d5b0aac7178ed7b0a6018c491d48750fc6a9"
+          }
+        },
+        {
+          "client_id": "664903366932-bo7mppq8nd062qdfkrd1hvh6h6183qpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEHRZsvq-0F12JHi9wO2-Pr1BuBUUkYhc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664903366932-bo7mppq8nd062qdfkrd1hvh6h6183qpa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
